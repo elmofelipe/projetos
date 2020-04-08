@@ -3,7 +3,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md order-lg-1 text-md-left">
-            <p class="mb-0 text-secondary">Feito com <img class="emoji" draggable="false" src="https://s.w.org/images/core/emoji/11.2.0/svg/2764.svg" alt="❤" scale="0" style="width: 15px;"> por <a style="color: #000;" href="http://www.mobilizze.com"><b> Mobilizze Digital</b></p>
+            <p class="mb-0 text-secondary">Feito com <img class="emoji" draggable="false" src="https://s.w.org/images/core/emoji/11.2.0/svg/2764.svg" alt="❤" scale="0" style="width: 15px;"> por <a style="color: #000;" href="http://www.mobilizze.com"><b> Mobilizze Digital</b></a></p>
           </div>
         </div>
       </div>

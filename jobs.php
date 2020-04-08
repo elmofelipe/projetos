@@ -30,10 +30,10 @@
 
 
 						<div class="row layout-header pb-5 pt-20 pb-md-5 pt-md-20 shadow">
-          			<div class="col-1 col-lg-1 " style="">
+          			<div class="col-12 col-lg-1 " style="">
               			<h2>Jobs</h2>
           			</div>
-          			<div class="col-9 col-lg-9 text-right search">
+          			<div class="col-12 col-lg-9 text-right search">
 
               		<div class="bg-card rounded-full border px-4 search-btn" >
 
