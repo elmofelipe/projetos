@@ -29,7 +29,7 @@
           </div>
             
           <div class="col-lg-2 col-6 order-md-3 text-right">
-            <a class="btn-adicionar" href="#"><svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 64 64" height="24px" viewBox="0 0 64 64" width="18px" src="./images/gallery/lineaicons/arrows_plus.svg" class="icon svg-secondary" alt="icon" style="fill: #fff; background-position: center center; border-width: 0px;stroke: #fff;stroke-width: 2px;"><path d="m31 14v17h-17v2h17v17h2v-17h17v-2h-17v-17z"></path></svg> Adicionar job</a>  
+            <a class="btn-adicionar" href="#" data-toggle="modal" data-target="#adicionar-job"><svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 64 64" height="24px" viewBox="0 0 64 64" width="18px" src="./images/gallery/lineaicons/arrows_plus.svg" class="icon svg-secondary" alt="icon" style="fill: #fff; background-position: center center; border-width: 0px;stroke: #fff;stroke-width: 2px;"><path d="m31 14v17h-17v2h17v17h2v-17h17v-2h-17v-17z"></path></svg> Adicionar job</a>  
           </div>
            
 

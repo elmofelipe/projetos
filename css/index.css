@@ -1323,6 +1323,125 @@ select:focus {
   margin-top: -12px;
 }
 /****************************
+ Minha conta
+*****************************/
+#conta .layout-header {
+  margin-top: -84px;
+  background: #fff;
+  border-radius: 3px;
+}
+#conta .form-control {
+  border: 1px solid #C9CED6;
+  border-radius: 4px;
+  margin-bottom: 4%;
+  height: 40px;
+}
+#conta .btn-success{
+  border-radius: 3px;
+}
+#conta label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #000;
+}
+#conta .flex-column {
+  width: 135px;
+}
+#conta .flex-column .nav-link {
+  padding: 0 1.25rem;
+  margin-bottom: 3rem;
+}
+#conta .flex-column .active{
+  border-right: 2px solid #6E4BE8;	
+}
+#conta .excluir-conta{
+  margin-bottom: 4%;
+}
+#conta .foto {
+  object-fit: cover !important;
+  height: 90px;
+  border-radius: 3px;
+  display: block;
+}
+#conta .btn-ediatr {
+  color: #000;
+  font-size: 12px;
+  margin: 10px 0;
+}
+#conta .btn-cliente {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  color: #1C1C1C;
+}
+#conta .plr-0{
+  padding: 0;
+}
+#conta .icon{
+  width: 13px;
+}
+#conta .box{
+  background: #F5F6FA;
+  width: 50%;
+  border-radius: 3px;
+  padding: 12px 15px;
+  margin: 20px 0 10px 0;
+}
+#conta .box h5{
+  font-size: 16px;
+}
+#conta .box p{
+  font-size: 13px;
+  color: #898989;
+  margin-bottom: 0;
+}
+#conta .membros h3{
+  font-weight: 500;
+  font-size: 24px;
+  color: #1C1C1C;
+}
+#conta .membros .adicionar{
+  font-weight: 500;
+  font-size: 16px;
+  color: #1C1C1C;
+}
+#conta .membros .adicionar img{
+  width: 24px;
+  margin: 0 5px;
+}
+#conta .membros .membros-linha{
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 13px;
+}
+#conta .membros .plr-0{
+  padding-left: 0;
+  padding-right: 0;
+}
+#conta .membros p{
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+#conta .membros .lista{
+  margin-top: 5%;
+}
+#conta .membros .mb-lista{
+  margin-bottom: 20px;
+}
+#conta .membros .border-bottom{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+#conta .membros ul{
+  list-style-type:none;
+  float: right;
+}
+#conta .membros ul li{
+  float: left;
+  margin-left: 20px;
+  text-align:right;
+  position: relative;
+}
+/****************************
   modal - concluir
 *****************************/
 #concluir .modal-dialog {
@@ -1402,75 +1521,394 @@ select:focus {
  color: #6E4BE8;
 }
 
-#conta .layout-header {
-    margin-top: -84px;
-    background: #fff;
-    border-radius: 3px;
+/****************************
+  modal - #plano
+*****************************/
+
+#plano .modal-dialog {
+	max-width: 70%;
+	border-radius: 3px;
+	background: #fff;
 }
-#conta .form-control {
-	border: 1px solid #C9CED6;
-	border-radius: 4px;
-	margin-bottom: 4%;
-	height: 40px;
+#plano h3 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-weight: 600;
+  font-size: 28px;
 }
-#conta .btn-success{
+#plano p {
+  margin-bottom: 3%;
+  font-size: 14px;
+  color: #3F3F3F;
+}
+#plano .btn-adiciobar-job{
+	color: #fff !important;
+  background-color: #6E4BE8 !important;
+  border-color: #6E4BE8 !important;
   border-radius: 3px;
 }
-#conta label {
-	font-size: 13px;
-	font-weight: 500;
-	color: #000;
-}
-#conta .flex-column {
-	width: 135px;
-}
-#conta .flex-column .nav-link {
-	padding: 0 1.25rem;
-	margin-bottom: 3rem;
-}
-#conta .flex-column .active{
-	border-right: 2px solid #6E4BE8;	
-}
-#conta .excluir-conta{
-	margin-bottom: 4%;
-}
-#conta .foto {
-	object-fit: cover !important;
-	height: 90px;
-	border-radius: 3px;
+#plano .img-fluid {
+	margin: 0 auto;
 	display: block;
 }
-#conta .btn-ediatr {
-	color: #000;
-	font-size: 12px;
-	margin: 10px 0;
+#plano .box{
+  position: relative;
+  border: 3px solid transparent;
+  border-radius: 3px;
+  background: linear-gradient(#fff, #fff);
+  background-clip: padding-box;
+  padding: 10px;
+  z-index: auto;
+  max-width: 29.333333%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
-#conta .btn-cliente {
-	font-size: 20px;
-	font-weight: 500;
-	margin: 0;
+
+#plano .box::after {
+  position: absolute;
+  top: -2px; bottom: -2px;
+  left: -2px; right: -2px;
+  background: linear-gradient(#C9CED6, #C9CED6);
+  content: '';
+  z-index: -1 !important;
+  border-radius: 3px;
 }
-#conta .plr-0{
-	padding: 0;
+
+#plano .box-active::after {
+  position: absolute;
+  top: -2px; bottom: -2px;
+  left: -2px; right: -2px;
+  background: linear-gradient(#3c85e7, #6e4be8);
+  content: '';
+  z-index: -1 !important;
+  border-radius: 3px;
 }
-#conta .icon{
-	width: 13px;
+.basico h4,.pro h4,.time h4{
+  font-weight: 500;
+  font-size: 16px !important;
+  text-transform: uppercase;
 }
-#conta .box{
-	background: #F5F6FA;
-	width: 50%;
+.basico h4{
+  color: #1EA8E7;
+}
+.pro h4{
+  color: #6E4BE8;
+}
+.time h4{
+  color: #000000;
+}
+.basico h2,.pro h2,.time h2{
+  font-weight: 600;
+  font-size: 48px;
+  color: #000;
+}
+.basico span,.pro span,.time span{
+  font-size: 14px;
+  color: #95999E;
+}
+#plano ul{
+  list-style-type: none;
+  margin: 18% 0;
+}
+#plano li{
+  font-weight: 500;
+  margin: 2% 0;
+  font-size: 14px;
+  color: #3F3F3F;
+}
+
+#plano .btn-group .btn {
+  display: inline-block;
+  border: 1px solid transparent;
+  padding: .375rem 1rem;
+  border-radius: 4px;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+#plano .btn-secondary {
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+  background-color: #C9CED6;
+}
+#plano .btn-group .active{
+  background-image: linear-gradient(263.48deg, #6E4BE8 1.82%, #1EA8E7 102.1%) !important;
+}
+
+#plano .btn-group, .btn-group-vertical {
+  position: relative;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: middle;
+  margin-bottom: 3%;
+}
+
+#plano .btn-group>.btn-group:not(:last-child)>.btn, 
+#plano .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0;
+}
+
+#plano .btn-group>.btn-group:not(:first-child)>.btn,
+#plano .btn-group>.btn:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#plano .btn-block {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 3px;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  margin-bottom: 5%;
+}
+/****************************
+  modal - adicionar Membro
+*****************************/
+#adicionar-membro .modal-dialog {
+	max-width: 440px;
 	border-radius: 3px;
-	padding: 12px 15px;
-	margin: 20px 0 10px 0;
+	background: #fff;
 }
-#conta .box h5{
-	font-size: 16px;
+#adicionar-membro h3{
+	font-size: 24px;
+	margin-top: 4%;
+  margin-bottom: 2%;
+  font-weight: 500;
+  color: #1C1C1C;
+
 }
-#conta .box p{
-	font-size: 13px;
-	color: #898989;
-	margin-bottom: 0;
+#adicionar-membro p{
+	font-size: 14px;
+  margin-bottom: 15%;
+  color: #3F3F3F;
 }
+#adicionar-membro label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #000;
+}
+#adicionar-membro .form-control {
+  border: 1px solid #C9CED6;
+  border-radius: 4px;
+  margin-bottom: 4%;
+  height: 40px;
+}
+#adicionar-membro .btn-adiciobar-job{
+	color: #fff !important;
+  background-color: #6E4BE8 !important;
+  border-color: #6E4BE8 !important;
+  border-radius: 3px;
+}
+#adicionar-membro .img-fluid {
+	margin: 0 auto;
+	display: block;
+}
+#adicionar-membro .btn-salvar{
+  color: #fff !important;
+  background-color: #6E4BE8 !important;
+  border-color: #6E4BE8 !important;
+  border-radius: 3px;
+}
+#adicionar-membro .btn-block {
+  display: block;
+  width: 90%;
+  margin: 0;
+  border-radius: 3px;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  margin-bottom: 5%;
+  margin-top: 13%;
+  margin-bottom: 9%;
+  float: right;
+}
+
+
+
+/****************************
+  modal - acesso-clientes
+*****************************/
+#acesso-clientes .modal-dialog {
+	max-width: 440px;
+	border-radius: 3px;
+	background: #fff;
+}
+#acesso-clientes h3{
+	font-size: 24px;
+	margin-top: 4%;
+  margin-bottom: 2%;
+  font-weight: 500;
+  color: #1C1C1C;
+
+}
+#acesso-clientes p{
+	font-size: 14px;
+  margin-bottom: 15%;
+  color: #3F3F3F;
+}
+
+
+#acesso-clientes .btn-adiciobar-job{
+	color: #fff !important;
+  background-color: #6E4BE8 !important;
+  border-color: #6E4BE8 !important;
+  border-radius: 3px;
+}
+
+#acesso-clientes .btn-salvar{
+  color: #fff !important;
+  background-color: #6E4BE8 !important;
+  border-color: #6E4BE8 !important;
+  border-radius: 3px;
+}
+#acesso-clientes .btn-block {
+  display: block;
+  width: 90%;
+  margin: 0;
+  border-radius: 3px;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  margin-bottom: 5%;
+  margin-top: 13%;
+  margin-bottom: 9%;
+  float: right;
+}
+
+#acesso-clientes .table span{
+  font-size: 14px;
+  color: #3F3F3F;
+}
+#acesso-clientes .table td, #acesso-clientes .table th {
+  padding: 10px 3px 10px 15px;
+}
+#acesso-clientes .table input[type=checkbox]{
+  position: relative;
+  bottom: -4px;
+  margin-left: 5px;
+}
+#acesso-clientes .media img{
+  width: 35px;
+  height: 35px;
+  border-radius: 3px;
+}
+#acesso-clientes .media h5{
+  font-weight: normal;
+  font-size: 16px;
+}
+#acesso-clientes .media .media-body{
+  margin-left: 4%;
+}
+#acesso-clientes .table thead{
+  background: #F5F6FA;
+  border-radius: 4px;
+}
+
+/****************************
+  modal - adicionar job
+*****************************/
+
+#adicionar-job .modal-dialog {
+	max-width: 530px;
+	border-radius: 3px;
+	background: #fff;
+}
+#adicionar-job h3{
+	font-size: 24px;
+	margin-top: 4%;
+  margin-bottom: 7%;
+  font-weight: 500;
+  color: #1C1C1C;
+
+}
+#adicionar-job p{
+	font-size: 14px;
+  margin-bottom: 15%;
+  color: #353535;
+}
+#adicionar-job h2{
+font-weight: 500;
+font-size: 18px;
+color: #050505;
+}
+#adicionar-job label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #000;
+}
+#adicionar-job .form-control {
+  border: 1px solid #6e4be8;
+  border-radius: 4px;
+  margin-bottom: 4%;
+  height: 40px;
+  margin-top: 0px;
+}
+#adicionar-job .btn-adiciobar-job{
+	color: #fff !important;
+  background-color: #6E4BE8 !important;
+  border-color: #6E4BE8 !important;
+  border-radius: 3px;
+}
+#adicionar-job .img-fluid {
+	margin: 0 auto;
+  display: block;
+  margin-bottom: 15%;
+  margin-top: 15%;
+}
+#adicionar-job .btn-salvar{
+  color: #fff !important;
+  background-color: #6E4BE8 !important;
+  border-color: #6E4BE8 !important;
+  border-radius: 3px;
+}
+#adicionar-job .btn-block {
+  display: block;
+  width: 90%;
+  margin: 0;
+  border-radius: 3px;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  margin-bottom: 5%;
+  margin-top: 13%;
+  margin-bottom: 9%;
+  float: right;
+}
+
+#adicionar-job .box {
+  position: relative;
+  border: 3px solid transparent;
+  border-radius: 3px;
+  background: linear-gradient(#fff, #fff);
+  background-clip: padding-box;
+  z-index: auto;
+  flex: 0 0 46.666667%;
+  max-width: 46.666667%;
+}
+
+#adicionar-job .box::after {
+  position: absolute;
+  top: -2px; bottom: -2px;
+  left: -2px; right: -2px;
+  background: linear-gradient(#C9CED6, #C9CED6);
+  content: '';
+  z-index: -1 !important;
+  border-radius: 3px;
+}
+#adicionar-job .plr-7{
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+#adicionar-job .box-active::after {
+  position: absolute;
+  top: -2px; bottom: -2px;
+  left: -2px; right: -2px;
+  background: linear-gradient(#3c85e7, #6e4be8);
+  content: '';
+  z-index: -1 !important;
+  border-radius: 3px;
+}
+
 
 @media (max-width: 1050px) {
 	.ml-auto {
@@ -1538,6 +1976,27 @@ select:focus {
 }
 .search-btn {
 	max-width: 100%;
+}
+#conta .membros .plr-0 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#plano .modal-dialog {
+  max-width: 90%;;
+}
+#plano .box {
+  max-width: 100%;
+}
+#revisao .container-fluid .btn-success {
+  width: 90%;
+}
+#timeline .container-fluid .btn-success {
+  width: 90%;
+}
+#adicionar-job .btn-block {
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 0%;
 }
 	
 }

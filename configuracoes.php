@@ -29,6 +29,7 @@
 			<div class="col-lg-3">
 				<nav class="nav flex-column">
 					<a class="nav-link " href="#">Minha Conta</a>
+					<a class="nav-link" href="#">Meu Time</a>
 					<a class="nav-link active" href="#">Configurações</a>
 					<a class="nav-link " href="#">senha</a>
 				</nav>

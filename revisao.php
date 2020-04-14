@@ -122,10 +122,10 @@
 
 		<div class="container-fluid shadow concluir">
 			<div class="row justify-content-end">
-				<div class="col-lg-2 col-6">
+				<div class="col-lg-2 col-4">
 					<a href="usuario.php" class="btn btn-light">Voltar</a>
 				</div>
-				<div class="col-lg-3 col-6">
+				<div class="col-lg-3 col-8">
 					<a href="#" class="btn btn-success" data-toggle="modal" data-target="#enviar-cliente">Enviar para o cliente</a>
 				</div>
 			</div>
@@ -134,34 +134,6 @@
 	</form>
 </section>
 
-<div class="modal-container">
-	<div class="modal fade" id="enviar-cliente" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-			<div class="modal-content padding-x2 ">
-				<button type="button" class="close position-absolute r-0 t-0" data-dismiss="modal" aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 16 16" width="16" class="icon svg-secondary"><path d="m8.07106781 6.65685425 5.65685429-5.65685425 1.4142135 1.41421356-5.65685423 5.65685425 5.65685423 5.65685429-1.4142135 1.4142135-5.65685429-5.65685423-5.65685425 5.65685423-1.41421356-1.4142135 5.65685425-5.65685429-5.65685425-5.65685425 1.41421356-1.41421356z" fill-rule="evenodd"></path></svg></button>
-				<div class="modal-body">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12">
-								<img src="images/concluido.svg" class="img-fluid" alt="logo">
-							</div>
-							<div class="col-md-12 text-center">
-								<h3>Concluido!</h3>
-								<p>Seu job já foi enviado para o cliente, te notificaremos caso seja aprovado ou o tenha algum ajuste ;)</p>
-							</div>
-							<div class="col-md-12 text-center">
-								<a href="#">http://seulink.com</a>
-								<h6>Compartilher o link do seu job!</h6>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="bg-wrap">
-					<div class="bg"></div>
-				</div>
-			</div>
-    </div>
-	</div>
-</div>
 
+<?php include "modal.php";  ?>
 <?php include "footer.php";  ?>

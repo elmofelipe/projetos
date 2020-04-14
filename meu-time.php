@@ -28,42 +28,36 @@
 		<div class="row justify-content-md-center layout-header pb-100 pt-20 pb-md-100 pt-md-100 shadow">
 			<div class="col-lg-3">
 				<nav class="nav flex-column">
-					<a class="nav-link active" href="#">Minha Conta</a>
-					<a class="nav-link" href="#">Meu Time</a>
-					<a class="nav-link" href="#">Configurações</a>
+					<a class="nav-link " href="#">Minha Conta</a>
+					<a class="nav-link active" href="#">Meu Time</a>
+					<a class="nav-link " href="#">Configurações</a>
 					<a class="nav-link " href="#">senha</a>
 				</nav>
 			</div>
-			<div class="col-lg-6">
-				
-				<div class="row align-items-center">
-					<div class="col-lg-3 col-5">
-						<img src="images/cliente-foto.jpg" alt="..." class="foto">
-						<a href="#" class="btn-ediatr"><img src="images/Union.svg" class="icon"> Editar Foto</a>
+			<div class="col-lg-6 membros">
+				<div class="row membros-linha">
+					<div class="col-lg-6  col-6 plr-0">
+						<h3>Membros do time</h3>
 					</div>
-					<div class="col-lg-9 col-7 plr-0">
-						<a href="#" class="btn-cliente">Tiago cilia <img src="images/Union.svg" class="icon"></a>
+					<div class="col-lg-6 col-6  plr-0 text-right order-md-3">
+						<a href="#" class="adicionar" data-toggle="modal" data-target="#adicionar-membro"><img src="images/adicionar.svg"> adicionar Membro</a>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="box">
-							<h5>Plano atual</h5>
-							<p>Plano anual - PLUSS</p>
-							</div>
-						<a href="#" class="btn-ediatr" data-toggle="modal" data-target="#plano"><img src="images/Union.svg" class="icon"> Trocar de plano</a>
+				<div class="row lista">
+					<div class="col-lg-2 col-2 plr-0 mb-lista">
+						<p>Tatá</p>
 					</div>
-					<div class="col-lg-12">
-						<div class="box">
-							<h5>Clientes</h5>
-							<p>Sistema cilia</p>
-							<p>Mobilizze</p>
-							<p>CCD</p>
-						</div>
+					<div class="col-lg-7 col-5 plr-0 mb-lista border-bottom">
+						(tavanylopes@gmail.com)
+					</div>
+					<div class="col-lg-3 col-5 plr-0 mb-lista border-bottom">
+						<ul>
+							<li><a href="#" data-toggle="modal" data-target="#acesso-clientes"><img src="images/Union.svg" class=""></a></li>
+							<li><a href="#"><img src="images/lixeira.svg" class="form-excluir"></a></li>
+						</ul>
 					</div>
 
 				</div>
-
 			</div>
 		</div> 
 	</div>
@@ -72,6 +66,7 @@
 			<div class="bg"></div>
 	</div>
 </section>
+
 
 
 <?php include "modal.php";  ?>   

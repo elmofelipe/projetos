@@ -43,13 +43,13 @@
 							<h5 class="mt-0">Item: Dia da mulher <span>Pacote (8 itens)</span></h5>
 							<p>Social posts | janeiro 2020</p>
 							<div class="row status">
-								<div class="col-lg-2 align-self-center">
+								<div class="col-lg-2 col-12 align-self-center">
 									<p>Status</p>
 								</div>
-								<div class="col-lg-5">
+								<div class="col-lg-5 col-8">
 									<p class="tag-space pendente-tag">Em ajuste</p>
 								</div>
-								<div class="col-lg-3 plr-0">
+								<div class="col-lg-3 col-4 plr-0">
 									<a href="#"><img src="images/link.svg" class="link"></a>
 								</div>
 							</div>
